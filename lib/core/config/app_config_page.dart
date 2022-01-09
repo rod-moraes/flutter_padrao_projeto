@@ -1,4 +1,4 @@
-import 'package:flutter/scheduler.dart';
+import 'package:split_it_ignite/core/config/app_config_controller.dart';
 import 'package:split_it_ignite/modules/splash/splash_page.dart';
 
 import '/core/core.dart';
@@ -15,13 +15,13 @@ class AppConfigPage extends StatefulWidget {
 
 class _AppConfigPageState extends State<AppConfigPage> {
   //CONTROLADOR COM FUNÇÕES DO TEMA
-  AppThemeController controller = AppThemeController();
+  final AppConfigController _controllerConfig = AppConfigController();
 
   late Future<void> _initialize;
 
   @override
   void initState() {
-    _initialize = controller.currentThemeMode();
+    _initialize = _controllerConfig.controllerAppTheme.currentThemeMode();
     super.initState();
   }
 
@@ -53,7 +53,7 @@ class _AppConfigPageState extends State<AppConfigPage> {
         // ENQUANTO ESTÁ EM ESTADO DE LOADING NA FUNÇÃO FUTURE
         return const Material(
           child: Center(
-            child: SplashPage(),
+            child: SplashPage(redirect: false),
           ),
         );
       },

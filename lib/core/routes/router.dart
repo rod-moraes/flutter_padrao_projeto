@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 import 'package:split_it_ignite/core/config/app_config_page.dart';
 import 'package:split_it_ignite/modules/splash/splash_page.dart';
 
@@ -15,7 +14,8 @@ class RouterClass {
     switch (settings.name) {
       //ROTA DA SPLASH
       case splash:
-        return MaterialPageRoute(builder: (_) => const SplashPage());
+        return MaterialPageRoute(
+            builder: (_) => const SplashPage(redirect: true));
 
       //ROTA COM INICIAL DE CONFIGURAÇÕES
       case initial:

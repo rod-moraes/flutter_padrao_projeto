@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:sizer/sizer.dart';
-import 'package:split_it_ignite/modules/splash/splash_page.dart';
 
 import 'core.dart';
 
