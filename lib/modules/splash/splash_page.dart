@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:split_it_ignite/core/core.dart';
+import '/core/core.dart';
 
 class SplashPage extends StatelessWidget {
   final bool redirect;

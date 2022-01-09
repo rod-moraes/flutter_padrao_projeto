@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:split_it_ignite/core/config/app_config_page.dart';
-import 'package:split_it_ignite/modules/splash/splash_page.dart';
+import '/core/config/app_config_page.dart';
+import '/modules/splash/splash_page.dart';
 
 class RouterClass {
   //STRINGS DAS ROTAS

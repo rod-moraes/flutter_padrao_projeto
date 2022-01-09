@@ -1,7 +1,5 @@
-import 'package:split_it_ignite/core/config/app_config_controller.dart';
-import 'package:split_it_ignite/modules/splash/splash_page.dart';
-
 import '/core/core.dart';
+import '/modules/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 
 class AppConfigPage extends StatefulWidget {
