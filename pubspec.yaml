@@ -1,4 +1,4 @@
-name: projeto_padrao
+name: split_it_ignite
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -40,6 +40,8 @@ dependencies:
   shared_preferences: ^2.0.11
   sizer: ^2.0.15
   package_info_plus: ^1.3.0
+  http: ^0.13.4
+  google_fonts: ^2.2.0
 
 dev_dependencies:
   flutter_test:
