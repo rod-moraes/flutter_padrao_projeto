@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:split_it_ignite/domain/login/usecase/login_usecase.dart';
-import 'package:split_it_ignite/modules/login/login_state.dart';
+import '/domain/login/usecase/login_usecase.dart';
+import '/modules/login/login_state.dart';
 import '/core/core.dart';
 
 import 'login_controller.dart';

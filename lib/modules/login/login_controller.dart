@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:mobx/mobx.dart';
-import 'package:split_it_ignite/core/core.dart';
-import 'package:split_it_ignite/domain/login/model/user_model.dart';
-import 'package:split_it_ignite/domain/login/usecase/login_usecase.dart';
-import 'package:split_it_ignite/modules/login/login_state.dart';
+import '/core/core.dart';
+import '/domain/login/model/user_model.dart';
+import '/domain/login/usecase/login_usecase.dart';
+import '/modules/login/login_state.dart';
 part 'login_controller.g.dart';
 
 class LoginController extends _LoginControllerBase with _$LoginController {
@@ -39,7 +39,7 @@ abstract class _LoginControllerBase with Store {
       content: Text(
         "Erro no login: ${(loginState as LoginStateFailure).message}",
         textAlign: TextAlign.center,
-        style: AppTheme.textStyles.textSnackBar,
+        style: AppTheme.textStyles.example,
       ),
       backgroundColor: Colors.red,
     );
@@ -56,7 +56,7 @@ abstract class _LoginControllerBase with Store {
       } else if (loginState is LoginStateSuccess) {
         Navigator.pushNamedAndRemoveUntil(
           context,
-          RouterClass.home,
+          RouterClass.erro,
           (Route<dynamic> route) => false,
           arguments: (loginState as LoginStateSuccess).user,
         );

@@ -1,5 +1,5 @@
 //LOGIN ABSTRATA PARA GENERALIZAR
-import 'package:split_it_ignite/domain/login/model/user_model.dart';
+import '/domain/login/model/user_model.dart';
 
 abstract class LoginState {}
 

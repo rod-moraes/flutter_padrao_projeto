@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:split_it_ignite/domain/login/model/user_model.dart';
-import 'package:split_it_ignite/modules/home/home_page.dart';
+import '/domain/login/model/user_model.dart';
 import '/core/config/app_config_page.dart';
 import '/modules/splash/splash_page.dart';
 import '/modules/login/login_page.dart';
@@ -11,7 +10,6 @@ class RouterClass {
   static const String initial = "/";
   static const String splash = "/splash";
   static const String login = "/login";
-  static const String home = "/home";
 
   // FUNÇÃO DE GERAÇÃO DE ROTAS
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -27,13 +25,13 @@ class RouterClass {
       case login:
         return MaterialPageRoute(builder: (_) => const LoginPage());
 
-      // ROTA PARA DO HOME
-      case home:
-        UserModel user = settings.arguments as UserModel;
-        return MaterialPageRoute(
-            builder: (_) => HomePage(
-                  user: user,
-                ));
+      // // ROTA PARA DO HOME
+      // case home:
+      //   UserModel user = settings.arguments as UserModel;
+      //   return MaterialPageRoute(
+      //       builder: (_) => HomePage(
+      //             user: user,
+      //           ));
 
       // ROTA COM INICIAL DE CONFIGURAÇÕES
       case initial:

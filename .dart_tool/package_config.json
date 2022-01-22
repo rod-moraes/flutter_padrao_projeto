@@ -164,6 +164,24 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "firebase_core",
+      "rootUri": "file:///C:/Users/Rodrigo%20Moraes/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_core-1.11.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_core_platform_interface",
+      "rootUri": "file:///C:/Users/Rodrigo%20Moraes/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_core_platform_interface-4.2.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "firebase_core_web",
+      "rootUri": "file:///C:/Users/Rodrigo%20Moraes/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/firebase_core_web-1.5.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "fixnum",
       "rootUri": "file:///C:/Users/Rodrigo%20Moraes/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/fixnum-1.0.0",
       "packageUri": "lib/",
@@ -218,6 +236,24 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "google_sign_in",
+      "rootUri": "file:///C:/Users/Rodrigo%20Moraes/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/google_sign_in-5.2.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "google_sign_in_platform_interface",
+      "rootUri": "file:///C:/Users/Rodrigo%20Moraes/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/google_sign_in_platform_interface-2.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "google_sign_in_web",
+      "rootUri": "file:///C:/Users/Rodrigo%20Moraes/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/google_sign_in_web-0.10.0+4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "graphs",
       "rootUri": "file:///C:/Users/Rodrigo%20Moraes/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/graphs-2.1.0",
       "packageUri": "lib/",
@@ -238,6 +274,12 @@
     {
       "name": "http_parser",
       "rootUri": "file:///C:/Users/Rodrigo%20Moraes/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/http_parser-4.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "intl",
+      "rootUri": "file:///C:/Users/Rodrigo%20Moraes/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/intl-0.17.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -298,6 +340,12 @@
     {
       "name": "mobx_codegen",
       "rootUri": "file:///C:/Users/Rodrigo%20Moraes/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/mobx_codegen-2.0.5+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "mocktail",
+      "rootUri": "file:///C:/Users/Rodrigo%20Moraes/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/mocktail-0.0.1-dev.12",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -392,6 +440,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "pedantic",
+      "rootUri": "file:///C:/Users/Rodrigo%20Moraes/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/pedantic-1.11.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "platform",
       "rootUri": "file:///C:/Users/Rodrigo%20Moraes/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/platform-3.1.0",
       "packageUri": "lib/",
@@ -426,6 +480,12 @@
       "rootUri": "file:///C:/Users/Rodrigo%20Moraes/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/pubspec_parse-1.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.14"
+    },
+    {
+      "name": "quiver",
+      "rootUri": "file:///C:/Users/Rodrigo%20Moraes/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/quiver-3.0.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "shared_preferences",
@@ -608,7 +668,7 @@
       "languageVersion": "2.15"
     }
   ],
-  "generated": "2022-01-09T22:49:30.153666Z",
+  "generated": "2022-01-22T15:04:33.725047Z",
   "generator": "pub",
   "generatorVersion": "2.15.1"
 }

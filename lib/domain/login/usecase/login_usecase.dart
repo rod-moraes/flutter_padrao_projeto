@@ -1,5 +1,5 @@
-import 'package:split_it_ignite/domain/login/model/user_model.dart';
-import 'package:split_it_ignite/domain/login/repository/login_repository.dart';
+import '/domain/login/model/user_model.dart';
+import '/domain/login/repository/login_repository.dart';
 
 abstract class LoginUseCase {
   Future<UserModel> googleSignIn();
