@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:sizer/sizer.dart';
-
 import 'core.dart';
 
+// CLASSE COM A ARQUITETURA DO APLICATIVO
+// ADICIONA O TEMA, AS ROTAS E O NOME DA APLICAÇÃO
+// CONTROLA O SIZE DO APLICATIVO
 class AppWidget extends StatelessWidget {
   AppWidget({Key? key}) : super(key: key);
   final AppThemeController _controller = AppThemeController();
@@ -17,8 +19,10 @@ class AppWidget extends StatelessWidget {
         return MaterialApp(
           //DESABILITA O BANNER "DEBUG"
           debugShowCheckedModeBanner: false,
-          title: "Title APP",
+          title: "Notes Ignite",
+          // CONTROLLER USANDO MOBX PARA O TEMA
           themeMode: _controller.themeMode,
+          // GERAÇÃO DE ROTAS DO APLICATIVO (COMEÇA NA '/')
           onGenerateRoute: RouterClass.generateRoute,
         );
       });

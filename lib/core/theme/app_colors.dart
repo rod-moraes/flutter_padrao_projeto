@@ -1,5 +1,15 @@
-abstract class AppColors {}
+import 'package:flutter/material.dart';
 
-class AppColorsLight implements AppColors {}
+abstract class AppColors {
+  Color get example;
+}
 
-class AppColorsDark implements AppColors {}
+class AppColorsLight implements AppColors {
+  @override
+  Color get example => const Color(0xFF40B28C);
+}
+
+class AppColorsDark implements AppColors {
+  @override
+  Color get example => const Color(0xFF40B28C);
+}
